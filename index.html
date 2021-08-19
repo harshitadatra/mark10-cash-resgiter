@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-   
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+  <h1> Cash Register Manager</h1>
+  <p>Enter the bill amount and cash given by the customer and know minimun number of notes in return.</p>
+  <p>Once you are done with one pyment, refresh the page for next payment.</p>
+  <div class="bill_amount">Bill Amount</div>
+  <input class="bill_amount"></input>
+  <div class="cash_given">Cash Given:</div>
+  <input class="cash_given"></input>
+  <button id="check_btuuon">check</button>
+  <div class="return_change">Return Change:</div>
+  <div class="change-table">
+    <table>
+      <tr>
+        <th>No.of Notes</td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+      </tr>
+      <tr>
+        <th>Note</td>
+        <td>2000</td>
+        <td>500</td>
+        <td>100</td>
+        <td>20</td>
+        <td>10</td>
+        <td>5</td>
+        <td>1</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
 </body>
+
 </html>

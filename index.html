@@ -8,8 +8,13 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<body>
+  
+
+
 <div class="container">
-  <h1 class="heading"> Cash Register Manager</h1>
+  
+  <h1 class="heading" style="text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Cash Register Manager</h1>
   <p class="description">Enter the bill amount and cash given by the customer and know minimun number of notes in return.</p>
   <p>Once you are done with one pyment, refresh the page for next payment.</p>
   <label for ="bill-amount">Bill Amount</label>
@@ -19,18 +24,9 @@
   <button id="check-button">check</button>
   <div id="message"></div>
   <div class="return_change">Return Change:</div>
-  <div class="change-table">
+  <div class="change-table"></div>
     <table>
-      <tr>
-        <th>No.of Notes</td>
-        <td class="noteCounter"></td>
-        <td class="noteCounter"></td>
-        <td class="noteCounter"></td>
-        <td class="noteCounter"></td>
-        <td class="noteCounter"></td>
-        <td class="noteCounter"></td>
-        <td class="noteCounter"></td>
-      </tr>
+      
       <tr>
         <th>Note</td>
         <td>2000</td>
@@ -41,9 +37,20 @@
         <td>5</td>
         <td>1</td>
       </tr>
+      <tr>
+        <th>No.of Notes</th>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+        <td class="noteCounter"></td>
+      </tr>
     </table>
   </div>
 </div>
+ 
 <script src="app.js" type="text/javascript"></script>
 
 </body>
